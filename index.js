@@ -1,7 +1,7 @@
 window.onload = () => {
-  let input = document.querySelector("input");
-  let inputContainer = document.querySelector(".section_subscribe_form");
-  let subscribeBtn = document.querySelector(".subscribeBtn");
+  let input = document.querySelector("#input");
+  let inputContainer = document.querySelector("#section_subscribe_form");
+  let subscribeBtn = document.querySelector("#subscribeBtn");
   let emailReg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i;
   let error = document.createElement("em");
   let success = document.createElement("em");
@@ -43,7 +43,7 @@ window.onload = () => {
       }
     });
 
-  let arrow = document.querySelector(".arrow");
+  let arrow = document.querySelector("#arrow");
   arrow && arrow.addEventListener("click", scrollToTop);
   function scrollToTop() {
     window.scrollTo({

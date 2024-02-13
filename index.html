@@ -26,7 +26,7 @@
           "https://twitter.com/carbonkleanllc"
         ],
         "logo": "https://peepseyeglasscleaner.us.com/templates/peepseyeglasscleaner/images/banners/headerLogo.webp",
-        "name": "Peeps Eyeglass Cleaner ™",
+        "name": "Peeps Eyeglass Cleaner™",
         "description": "Experience crystal-clear vision with Peeps Eyeglass Cleaner - Say goodbye to smudges!",
         "email": "info@peepseyeglasscleaner.us.com",
         "telephone": "+1-888-615-2155",
@@ -60,11 +60,12 @@
           src="images/banners/logo.png"
           alt="Carbon Klean"
           width="197"
+          height="27.25"
          />
       </a></div>
     </header>
     <main>
-      <button class="arrow" aria-label="scroll up">
+      <button class="arrow" id="arrow" aria-label="scroll up">
         <img src="images/icons/up-arrow.svg" alt="arrow" />
       </button>
       <section class="title">
@@ -508,14 +509,12 @@
         </div>
       </section>
       <section class="subscribe">
-        <img loading="lazy" src="images/banners/subscribe.webp" alt="subscribe" srcset="images/banners/subscribe600.webp 768w, images/banners/subscribe.webp 1920w"/>
         <div class="container">
-          <h2>SIGN UP AND RECEIVE A 10% DISCOUNT</h2>
-          <p>Become a member of our newsletter community for exclusive benefits like this special deal – sign up now and get 10% off your upcoming purchase!</p>
-          <div class="section_subscribe_form">
+          <h2>Sign up for exclusive offers and to be notified of the latest product drops</h2>
+          <div class="section_subscribe_form" id="section_subscribe_form">
             <div>
-              <input type="text" placeholder="Enter your email" />
-              <button class="subscribeBtn" aria-label="subscribe">SUBSCRIBE</button>
+              <input type="text" placeholder="Enter your email" id="input"/>
+              <button class="subscribeBtn" id="subscribeBtn" aria-label="subscribe">SUBSCRIBE</button>
             </div>
           </div>
         </div>
@@ -528,12 +527,13 @@
             src="images/banners/logo.png"
             alt="Sanitaire"
             width="197"
+            height="27.25"
             loading="lazy"
             class="footerImg" />
           <p>See the World in High Definition.</p>
           <div id="infoSite">peepseyeglasscleaner.us.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</div>
           <div>
-            <span>KEEP IN TOUCH</span>
+            <span>Communication</span>
             <ul>
               <li>24 Village Pointe Dr. Powell, OH 43065</li>
               <li>MON - SAT: 10AM-6PM (EST)</li>
